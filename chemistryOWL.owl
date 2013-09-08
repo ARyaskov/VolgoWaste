@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:chem="http://chem.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sqwrl="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"
+    xmlns="http://chem#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+  xml:base="http://chem.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl"/>
+    <owl:imports rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Соли">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Инертные_газы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Ионы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Другие_неметаллы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Атомы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Щелочные_металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Неметаллы"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Неорганические_молекулы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Галогены"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Щелочноземельные_металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Металлы"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Галогены">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Неметаллы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Другие_неметаллы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Инертные_газы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Неорганические_молекулы">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Молекулы"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Щелочноземельные_металлы">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Металлы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочные_металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Инертные_газы">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Неметаллы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Другие_неметаллы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Другие_неметаллы">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Неметаллы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Щелочные_металлы">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Металлы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Неметаллы">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Атомы"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Атомы">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:ID="Атомная_масса"/>
+            </owl:onProperty>
+            <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</owl:minCardinality>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >223</owl:maxCardinality>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:about="#Атомная_масса"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:ID="Ряд"/>
+            </owl:onProperty>
+            <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</owl:minCardinality>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >10</owl:maxCardinality>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:about="#Ряд"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:ID="Степень_окисления"/>
+            </owl:onProperty>
+            <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >8</owl:maxCardinality>
+          </owl:Restriction>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</owl:minCardinality>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:ID="Группа"/>
+                </owl:onProperty>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >8</owl:maxCardinality>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:about="#Группа"/>
+                </owl:onProperty>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >108</owl:maxCardinality>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:ID="Электронов"/>
+                </owl:onProperty>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:about="#Электронов"/>
+                </owl:onProperty>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</owl:minCardinality>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:FunctionalProperty rdf:ID="Период"/>
+                </owl:onProperty>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</owl:minCardinality>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >7</owl:maxCardinality>
+                <owl:onProperty>
+                  <owl:FunctionalProperty rdf:about="#Период"/>
+                </owl:onProperty>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >0</owl:minCardinality>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:ID="Нейтронов"/>
+                </owl:onProperty>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:DatatypeProperty rdf:about="#Нейтронов"/>
+                </owl:onProperty>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >200</owl:maxCardinality>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:FunctionalProperty rdf:ID="Протонов"/>
+                </owl:onProperty>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</owl:minCardinality>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >108</owl:maxCardinality>
+                <owl:onProperty>
+                  <owl:FunctionalProperty rdf:about="#Протонов"/>
+                </owl:onProperty>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Молекулы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Кислоты"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Кислоты">
+    <owl:disjointWith rdf:resource="#Щелочные_металлы"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith rdf:resource="#Атомы"/>
+    <owl:disjointWith rdf:resource="#Другие_неметаллы"/>
+    <rdfs:subClassOf rdf:resource="#Неорганические_молекулы"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Соли"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Молекулы">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ионы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Атомы"/>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+    <owl:disjointWith rdf:resource="#Щелочные_металлы"/>
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith rdf:resource="#Другие_неметаллы"/>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ионы">
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="Атомный_состав"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Атомы"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+    <owl:disjointWith rdf:resource="#Атомы"/>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+    <owl:disjointWith rdf:resource="#Кислоты"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Оксиды"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Молекулы"/>
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith rdf:resource="#Другие_неметаллы"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#Entity">
+        <owl:disjointWith>
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+            <owl:disjointWith rdf:resource="#Атомы"/>
+          </rdf:Description>
+        </owl:disjointWith>
+        <owl:disjointWith>
+          <rdf:Description rdf:about="http://protege.stanford.edu/plugins/owl/protege#DIRECTED-BINARY-RELATION">
+            <owl:disjointWith rdf:resource="#Атомы"/>
+          </rdf:Description>
+        </owl:disjointWith>
+        <owl:disjointWith>
+          <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+            <owl:disjointWith rdf:resource="#Атомы"/>
+          </rdf:Description>
+        </owl:disjointWith>
+        <owl:disjointWith>
+          <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+            <owl:disjointWith rdf:resource="#Атомы"/>
+          </rdf:Description>
+        </owl:disjointWith>
+        <owl:disjointWith rdf:resource="#Молекулы"/>
+        <owl:disjointWith rdf:resource="#Атомы"/>
+        <owl:disjointWith rdf:resource="#Ионы"/>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Щелочные_металлы"/>
+    <owl:disjointWith rdf:resource="#Соли"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Оксиды">
+    <rdfs:subClassOf rdf:resource="#Неорганические_молекулы"/>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith rdf:resource="#Ионы"/>
+    <owl:disjointWith rdf:resource="#Атомы"/>
+    <owl:disjointWith rdf:resource="#Кислоты"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Другие_неметаллы"/>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith rdf:resource="#Щелочные_металлы"/>
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Металлы"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Органические_молекулы">
+    <rdfs:subClassOf rdf:resource="#Молекулы"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Металлы">
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith rdf:resource="#Кислоты"/>
+    <owl:disjointWith rdf:resource="#Оксиды"/>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Щелочи"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Атомы"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://chem#Полимеры">
+    <rdfs:subClassOf rdf:resource="#Органические_молекулы"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Щелочи">
+    <owl:disjointWith rdf:resource="#Инертные_газы"/>
+    <owl:disjointWith rdf:resource="#Другие_неметаллы"/>
+    <owl:disjointWith rdf:resource="#Щелочные_металлы"/>
+    <owl:disjointWith rdf:resource="#Оксиды"/>
+    <owl:disjointWith rdf:resource="#Металлы"/>
+    <owl:disjointWith rdf:resource="#Галогены"/>
+    <owl:disjointWith rdf:resource="#Соли"/>
+    <owl:disjointWith rdf:resource="#Щелочноземельные_металлы"/>
+    <owl:disjointWith rdf:resource="#Ионы"/>
+    <owl:disjointWith rdf:resource="#Атомы"/>
+    <rdfs:subClassOf rdf:resource="#Неорганические_молекулы"/>
+    <owl:disjointWith rdf:resource="#Неметаллы"/>
+    <owl:disjointWith rdf:resource="#Кислоты"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="Ионный_состав">
+    <rdfs:domain rdf:resource="#Молекулы"/>
+    <rdfs:range rdf:resource="#Ионы"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#Атомный_состав">
+    <rdfs:range rdf:resource="#Атомы"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Молекулы"/>
+          <owl:Class rdf:about="#Ионы"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="#Атомная_масса">
+    <rdfs:domain rdf:resource="#Атомы"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Степень_окисления">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Название">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Атомы"/>
+          <owl:Class rdf:about="#Молекулы"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Электронов">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Группа">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Нейтронов">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Ряд">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Обозначение">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Молекулы"/>
+          <owl:Class rdf:about="#Атомы"/>
+          <owl:Class rdf:about="#Ионы"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="Инертный">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="#Неметаллы"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Молекулярная_масса">
+    <rdfs:domain rdf:resource="#Молекулы"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Подгруппа">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range>
+      <owl:DataRange>
+        <owl:oneOf rdf:parseType="Resource">
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >б</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:rest>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >a</rdf:first>
+        </owl:oneOf>
+      </owl:DataRange>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="#Атомы"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#Период">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#Протонов">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Атомы"/>
+  </owl:FunctionalProperty>
+  <chem:Инертные_газы rdf:ID="Радон">
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</chem:Инертный>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rn</chem:Обозначение>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Период>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >86</chem:Электронов>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Радон</chem:Название>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Группа>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >136</chem:Нейтронов>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >222.0</chem:Атомная_масса>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >86</chem:Протонов>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >9</chem:Ряд>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >0</chem:Степень_окисления>
+  </chem:Инертные_газы>
+  <chem:Щелочные_металлы rdf:ID="Цезий">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Цезий</chem:Название>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Степень_окисления>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >78</chem:Нейтронов>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Ряд>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >55</chem:Протонов>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Группа>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cs</chem:Обозначение>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >а</chem:Подгруппа>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >132.9</chem:Атомная_масса>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Период>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >55</chem:Электронов>
+  </chem:Щелочные_металлы>
+  <chem:Инертные_газы rdf:ID="Ксенон">
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Степень_окисления>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Степень_окисления>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Xe</chem:Обозначение>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Группа>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >54</chem:Электронов>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >0</chem:Степень_окисления>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >131.3</chem:Атомная_масса>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Степень_окисления>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Степень_окисления>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >7</chem:Ряд>
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</chem:Инертный>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >54</chem:Протонов>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Степень_окисления>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >77</chem:Нейтронов>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ксенон</chem:Название>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+  </chem:Инертные_газы>
+  <chem:Щелочные_металлы rdf:ID="Калий">
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >20</chem:Нейтронов>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Степень_окисления>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >19</chem:Электронов>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Калий</chem:Название>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Ряд>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >39.102</chem:Атомная_масса>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >а</chem:Подгруппа>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Период>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Группа>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >K</chem:Обозначение>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >19</chem:Протонов>
+  </chem:Щелочные_металлы>
+  <Полимеры rdf:about="http://chem#Полимеры_21">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Полипропилен</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >(C3H6)n</chem:Обозначение>
+  </Полимеры>
+  <Полимеры rdf:about="http://chem#Полимеры_26">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Полиэтилентерефталат</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >(C10H8O4)n</chem:Обозначение>
+  </Полимеры>
+  <Полимеры rdf:about="http://VolgoWaste.owl#Полимеры25">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Полиэтилен</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CH2—CH2—...</chem:Обозначение>
+  </Полимеры>
+  <chem:Инертные_газы rdf:ID="Криптон">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Криптон</chem:Название>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >36</chem:Протонов>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >95</chem:Нейтронов>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kr</chem:Обозначение>
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</chem:Инертный>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >5</chem:Ряд>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >131.3</chem:Атомная_масса>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Степень_окисления>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Период>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Группа>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</chem:Электронов>
+  </chem:Инертные_газы>
+  <chem:Соли rdf:ID="Хлорид_натрия">
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="Cl_minus">
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Cl-</chem:Обозначение>
+        <chem:Атомный_состав>
+          <chem:Галогены rdf:ID="Хлор">
+            <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Ряд>
+            <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >7</chem:Группа>
+            <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >17</chem:Электронов>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</chem:Степень_окисления>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >7</chem:Степень_окисления>
+            <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</chem:Инертный>
+            <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >a</chem:Подгруппа>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Степень_окисления>
+            <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Период>
+            <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Cl</chem:Обозначение>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >4</chem:Степень_окисления>
+            <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >35.5</chem:Атомная_масса>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >5</chem:Степень_окисления>
+            <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Хлор</chem:Название>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >-1</chem:Степень_окисления>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >6</chem:Степень_окисления>
+            <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >18</chem:Нейтронов>
+            <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >17</chem:Протонов>
+          </chem:Галогены>
+        </chem:Атомный_состав>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="Na_plus1">
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Na+1</chem:Обозначение>
+        <chem:Атомный_состав>
+          <chem:Щелочные_металлы rdf:ID="Натрий">
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</chem:Степень_окисления>
+            <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</chem:Подгруппа>
+            <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Na</chem:Обозначение>
+            <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >22.99</chem:Атомная_масса>
+            <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</chem:Группа>
+            <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >12</chem:Нейтронов>
+            <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >11</chem:Протонов>
+            <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >11</chem:Электронов>
+            <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Натрий</chem:Название>
+            <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Ряд>
+            <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Период>
+          </chem:Щелочные_металлы>
+        </chem:Атомный_состав>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Хлорид натрия</chem:Название>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >58.5</chem:Молекулярная_масса>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NaCl</chem:Обозначение>
+    <chem:Атомный_состав rdf:resource="#Хлор"/>
+    <chem:Атомный_состав rdf:resource="#Натрий"/>
+  </chem:Соли>
+  <chem:Оксиды rdf:ID="Оксид_магния">
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="O-2">
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >O-2</chem:Обозначение>
+        <chem:Атомный_состав>
+          <chem:Другие_неметаллы rdf:ID="Кислород">
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >-1</chem:Степень_окисления>
+            <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</chem:Инертный>
+            <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Кислород</chem:Название>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Степень_окисления>
+            <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >O</chem:Обозначение>
+            <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >8</chem:Нейтронов>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</chem:Степень_окисления>
+            <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >15.99</chem:Атомная_масса>
+            <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Ряд>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >-2</chem:Степень_окисления>
+            <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >8</chem:Электронов>
+            <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >6</chem:Группа>
+            <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >8</chem:Протонов>
+            <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Период>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</chem:Степень_окисления>
+          </chem:Другие_неметаллы>
+        </chem:Атомный_состав>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="Mg_plus2">
+        <chem:Атомный_состав>
+          <chem:Щелочноземельные_металлы rdf:ID="Магний">
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Степень_окисления>
+            <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >12</chem:Протонов>
+            <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Mg</chem:Обозначение>
+            <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >a</chem:Подгруппа>
+            <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >12</chem:Электронов>
+            <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >12</chem:Нейтронов>
+            <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Группа>
+            <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >24.3</chem:Атомная_масса>
+            <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Магний</chem:Название>
+            <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Ряд>
+            <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Период>
+          </chem:Щелочноземельные_металлы>
+        </chem:Атомный_состав>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Mg+2</chem:Обозначение>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >40.0</chem:Молекулярная_масса>
+    <chem:Атомный_состав rdf:resource="#Кислород"/>
+    <chem:Атомный_состав rdf:resource="#Магний"/>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Оксид магния</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MgO</chem:Обозначение>
+  </chem:Оксиды>
+  <chem:Другие_неметаллы rdf:ID="Теллур">
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Степень_окисления>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >127.6</chem:Атомная_масса>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Te</chem:Обозначение>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</chem:Электронов>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >7</chem:Ряд>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >78</chem:Нейтронов>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Теллур</chem:Название>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >5</chem:Период>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Степень_окисления>
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</chem:Инертный>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</chem:Протонов>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Степень_окисления>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Группа>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >-2</chem:Степень_окисления>
+  </chem:Другие_неметаллы>
+  <Полимеры rdf:about="http://chem#Полимеры_27">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Поливинилхлорид</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >[-CH2-CHCl-]n</chem:Обозначение>
+  </Полимеры>
+  <chem:Оксиды rdf:ID="Оксид_кальция">
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CaO</chem:Обозначение>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >56.0</chem:Молекулярная_масса>
+    <chem:Атомный_состав rdf:resource="#Кислород"/>
+    <chem:Атомный_состав>
+      <chem:Щелочноземельные_металлы rdf:about="#2">
+        <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >20</chem:Электронов>
+        <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Кальций</chem:Название>
+        <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >a</chem:Подгруппа>
+        <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</chem:Степень_окисления>
+        <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</chem:Группа>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Ca</chem:Обозначение>
+        <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4</chem:Период>
+        <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >40.08</chem:Атомная_масса>
+        <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4</chem:Ряд>
+        <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >20</chem:Нейтронов>
+        <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >20</chem:Протонов>
+      </chem:Щелочноземельные_металлы>
+    </chem:Атомный_состав>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Оксид кальция</chem:Название>
+    <chem:Ионный_состав rdf:resource="#O-2"/>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="Ca_plus2"/>
+    </chem:Ионный_состав>
+  </chem:Оксиды>
+  <chem:Соли rdf:ID="Сульфат_магния">
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="S-2">
+        <chem:Атомный_состав>
+          <chem:Другие_неметаллы rdf:ID="Сера">
+            <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >6</chem:Группа>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >-2</chem:Степень_окисления>
+            <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >S</chem:Обозначение>
+            <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >16</chem:Нейтронов>
+            <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >16</chem:Электронов>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >2</chem:Степень_окисления>
+            <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Период>
+            <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</chem:Инертный>
+            <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >16</chem:Протонов>
+            <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >3</chem:Ряд>
+            <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >32.0</chem:Атомная_масса>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >6</chem:Степень_окисления>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >4</chem:Степень_окисления>
+            <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >a</chem:Подгруппа>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</chem:Степень_окисления>
+            <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >-1</chem:Степень_окисления>
+            <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Сера</chem:Название>
+          </chem:Другие_неметаллы>
+        </chem:Атомный_состав>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >S-2</chem:Обозначение>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Ионный_состав rdf:resource="#Mg_plus2"/>
+    <chem:Атомный_состав rdf:resource="#Сера"/>
+    <chem:Атомный_состав rdf:resource="#Магний"/>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >56.0</chem:Молекулярная_масса>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Сульфат магния</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MgS</chem:Обозначение>
+  </chem:Соли>
+  <chem:Щелочноземельные_металлы rdf:about="#6">
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Группа>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</chem:Ряд>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Барий</chem:Название>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</chem:Период>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Степень_окисления>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >56</chem:Протонов>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ba</chem:Обозначение>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >56</chem:Электронов>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >81</chem:Нейтронов>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >137.34</chem:Атомная_масса>
+  </chem:Щелочноземельные_металлы>
+  <Полимеры rdf:about="http://chem#Полимеры_24">
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >(C8H8)n</chem:Обозначение>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Полистирол</chem:Название>
+  </Полимеры>
+  <chem:Щелочи rdf:ID="Гидроксид_магния">
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Гидроксид магния</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mg(OH)2</chem:Обозначение>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="OH-"/>
+    </chem:Ионный_состав>
+    <chem:Ионный_состав rdf:resource="#Mg_plus2"/>
+    <chem:Атомный_состав>
+      <chem:Другие_неметаллы rdf:ID="Водород">
+        <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >1.008</chem:Атомная_масса>
+        <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</chem:Протонов>
+        <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Водород</chem:Название>
+        <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</chem:Группа>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >H</chem:Обозначение>
+        <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</chem:Электронов>
+        <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</chem:Степень_окисления>
+        <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</chem:Ряд>
+        <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >-1</chem:Степень_окисления>
+        <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</chem:Степень_окисления>
+        <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</chem:Нейтронов>
+        <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >a</chem:Подгруппа>
+        <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</chem:Инертный>
+      </chem:Другие_неметаллы>
+    </chem:Атомный_состав>
+    <chem:Атомный_состав rdf:resource="#Кислород"/>
+    <chem:Атомный_состав rdf:resource="#Магний"/>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >58.0</chem:Молекулярная_масса>
+  </chem:Щелочи>
+  <chem:Галогены rdf:ID="Бром">
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >79.9</chem:Атомная_масса>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</chem:Протонов>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</chem:Степень_окисления>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Br</chem:Обозначение>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >-1</chem:Степень_окисления>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</chem:Электронов>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >3</chem:Степень_окисления>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Бром</chem:Название>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4</chem:Период>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >0</chem:Степень_окисления>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >5</chem:Степень_окисления>
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</chem:Инертный>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >5</chem:Ряд>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >7</chem:Степень_окисления>
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >7</chem:Группа>
+  </chem:Галогены>
+  <chem:Галогены rdf:ID="Фтор">
+    <chem:Группа rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >7</chem:Группа>
+    <chem:Протонов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >9</chem:Протонов>
+    <chem:Инертный rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</chem:Инертный>
+    <chem:Атомная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >18.9</chem:Атомная_масса>
+    <chem:Нейтронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >10</chem:Нейтронов>
+    <chem:Подгруппа rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a</chem:Подгруппа>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >-1</chem:Степень_окисления>
+    <chem:Период rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Период>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >F</chem:Обозначение>
+    <chem:Степень_окисления rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >0</chem:Степень_окисления>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Фтор</chem:Название>
+    <chem:Ряд rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</chem:Ряд>
+    <chem:Электронов rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >9</chem:Электронов>
+  </chem:Галогены>
+  <chem:Щелочи rdf:ID="Гидроксид_натрия">
+    <chem:Атомный_состав rdf:resource="#Натрий"/>
+    <chem:Атомный_состав rdf:resource="#Кислород"/>
+    <chem:Атомный_состав rdf:resource="#Водород"/>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Гидроксид натрия</chem:Название>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NaOH</chem:Обозначение>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >40.0</chem:Молекулярная_масса>
+    <chem:Ионный_состав rdf:resource="#OH-"/>
+    <chem:Ионный_состав rdf:resource="#Na_plus1"/>
+  </chem:Щелочи>
+  <chem:Кислоты rdf:ID="Серная_кислота">
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H2SO4</chem:Обозначение>
+    <chem:Атомный_состав rdf:resource="#Кислород"/>
+    <chem:Атомный_состав rdf:resource="#Сера"/>
+    <chem:Атомный_состав rdf:resource="#Водород"/>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="SO4">
+        <chem:Атомный_состав rdf:resource="#Кислород"/>
+        <chem:Атомный_состав rdf:resource="#Сера"/>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >SO4-2</chem:Обозначение>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Серная кислота</chem:Название>
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >98.0</chem:Молекулярная_масса>
+  </chem:Кислоты>
+  <chem:Кислоты rdf:ID="Соляная_кислота">
+    <chem:Молекулярная_масса rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >36.5</chem:Молекулярная_масса>
+    <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HCl</chem:Обозначение>
+    <chem:Атомный_состав rdf:resource="#Хлор"/>
+    <chem:Атомный_состав rdf:resource="#Водород"/>
+    <chem:Название rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Соляная кислота</chem:Название>
+    <chem:Ионный_состав rdf:resource="#Cl_minus"/>
+    <chem:Ионный_состав>
+      <chem:Ионы rdf:ID="H_plus">
+        <chem:Атомный_состав rdf:resource="#Водород"/>
+        <chem:Обозначение rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >H+</chem:Обозначение>
+      </chem:Ионы>
+    </chem:Ионный_состав>
+  </chem:Кислоты>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->

@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:absolute="http://www.owl-ontologies.com/forms/absolute.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:forms="http://www.owl-ontologies.com/forms/forms.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:pforms="http://www.owl-ontologies.com/forms/protege.owl#"
+  xml:base="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms">
+  <owl:Ontology rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms">
+    <owl:imports rdf:resource="http://www.owl-ontologies.com/forms/absolute.owl"/>
+    <owl:imports rdf:resource="http://www.owl-ontologies.com/forms/protege.owl"/>
+  </owl:Ontology>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Промышленность">
+    <forms:widgets>
+      <pforms:MultiResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >380</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >240</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_техпроцессы"/>
+      </pforms:MultiResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:DataRangeFieldWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Район_города"/>
+      </pforms:DataRangeFieldWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Промышленность"/>
+  </forms:FormWidget>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Пищевая">
+    <forms:widgets>
+      <pforms:MultiResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >320</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >240</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_техпроцессы"/>
+      </pforms:MultiResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:DataRangeFieldWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Район_города"/>
+      </pforms:DataRangeFieldWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Пищевая"/>
+  </forms:FormWidget>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Несанкционированная_свалка">
+    <forms:widgets>
+      <pforms:SingleLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >210</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >350</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Описание_очевидцев"/>
+      </pforms:SingleLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:SingleLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >290</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Адрес"/>
+      </pforms:SingleLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Несанкционированная_свалка"/>
+  </forms:FormWidget>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Отход_химической_промышленности">
+    <forms:widgets>
+      <pforms:MultiResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >300</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_химический_состав"/>
+      </pforms:MultiResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:SingleResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >420</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_класс_опасности"/>
+      </pforms:SingleResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:SingleLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >240</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#концентрация"/>
+      </pforms:SingleLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:SingleLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Описание"/>
+      </pforms:SingleLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:SingleLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >420</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >210</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Время_разложения"/>
+      </pforms:SingleLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:DataRangeFieldWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >240</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >210</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#агрегатное_состояние"/>
+      </pforms:DataRangeFieldWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности"/>
+  </forms:FormWidget>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Химическая">
+    <forms:widgets>
+      <pforms:MultiResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >430</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >240</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_техпроцессы"/>
+      </pforms:MultiResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:DataRangeFieldWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#Район_города"/>
+      </pforms:DataRangeFieldWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Химическая"/>
+  </forms:FormWidget>
+  <forms:FormWidget rdf:about="file:/C:/Dropbox/Study/ИИ/VolgoWaste/VolgoWaste.owl.forms#http_//VolgoWaste.owl#Техпроцесс_химической_промышленности">
+    <forms:widgets>
+      <pforms:MultiResourceWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >350</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_отходы"/>
+      </pforms:MultiResourceWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:MultiLiteralWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >120</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >380</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_значение_удельных_показателей_значение"/>
+      </pforms:MultiLiteralWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:DataRangeFieldWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >60</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >200</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >320</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://VolgoWaste.owl#имеет_значение_удельных_показателей_ед.изм"/>
+      </pforms:DataRangeFieldWidget>
+    </forms:widgets>
+    <forms:widgets>
+      <pforms:HeaderWidget>
+        <forms:layoutData>
+          <absolute:AbsoluteLayoutData>
+            <absolute:height rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >180</absolute:height>
+            <absolute:width rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >550</absolute:width>
+            <absolute:y rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:y>
+            <absolute:x rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</absolute:x>
+          </absolute:AbsoluteLayoutData>
+        </forms:layoutData>
+        <forms:property_list>
+          <forms:PropertyList>
+            <forms:properties>
+              <forms:Boolean>
+                <forms:booleanValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                >false</forms:booleanValue>
+                <forms:name>DisabledByUser</forms:name>
+              </forms:Boolean>
+            </forms:properties>
+          </forms:PropertyList>
+        </forms:property_list>
+        <forms:forProperty rdf:resource="http://protege.stanford.edu/plugins/owl/protege#inferredType"/>
+      </pforms:HeaderWidget>
+    </forms:widgets>
+    <forms:forClass rdf:resource="http://VolgoWaste.owl#Техпроцесс_химической_промышленности"/>
+  </forms:FormWidget>
+</rdf:RDF>
