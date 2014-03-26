@@ -50,15 +50,9 @@
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_биологические"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Промышленность"/>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_предприятий_оптово-розничной_торговли_продовольственными_товарами">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_автозаправочных_станций">
@@ -73,12 +67,17 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_деревообрабатывающей_промышленности">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Waste_processing_industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_уборки_территорий_в_летний_период">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_уборки_территорий"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Waste_processing_industry">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Production_wastes"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Легковые_транспортные_средства_и_их_крупногабаритные_детали">
@@ -88,7 +87,12 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Лампы_электрические_и_электронные_(исключая_ртутные)">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Комбикормовая">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_картона,_гофра">
@@ -96,52 +100,25 @@
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_бумаги_(макулатура)"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Комбикормовая">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
-    </rdfs:subClassOf>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_(крупные)">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_потребления"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_электротехнической_промышленности">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отход_потребления">
-    <rdfs:comment xml:lang="ru">&lt;p style="margin-top: 0"&gt;&#xD;
-      &amp;#1057;&amp;#1086;&amp;#1075;&amp;#1083;&amp;#1072;&amp;#1089;&amp;#1085;&amp;#1086; &amp;#1076;&amp;#1086;&amp;#1082;&amp;#1091;&amp;#1084;&amp;#1077;&amp;#1085;&amp;#1090;&amp;#1091; &#xD;
-    &lt;/p&gt;&#xD;
-    &lt;font color="rgb(0, 0, 0)" size="medium" face="Times New Roman"&gt;&lt;span style="white-space: normal; word-spacing: 0px; float: none; line-height: normal; text-indent: 0px; letter-spacing: normal; font-variant: normal; text-transform: none; display: inline !important" align="start"&gt;&amp;#171;&amp;#1050;&amp;#1083;&amp;#1072;&amp;#1089;&amp;#1089;&amp;#1080;&amp;#1092;&amp;#1080;&amp;#1082;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1086;&amp;#1085;&amp;#1085;&amp;#1099;&amp;#1081; &#xD;
-    &amp;#1082;&amp;#1072;&amp;#1090;&amp;#1072;&amp;#1083;&amp;#1086;&amp;#1075; &amp;#1086;&amp;#1090;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1086;&amp;#1074; &amp;#1087;&amp;#1086;&amp;#1090;&amp;#1088;&amp;#1077;&amp;#1073;&amp;#1083;&amp;#1077;&amp;#1085;&amp;#1080;&amp;#1103; (&amp;#1090;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1076;&amp;#1099;&amp;#1093; &amp;#1073;&amp;#1099;&amp;#1090;&amp;#1086;&amp;#1074;&amp;#1099;&amp;#1093; &amp;#1080; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1085;&amp;#1077;&amp;#1085;&amp;#1085;&amp;#1099;&amp;#1093; &amp;#1082; &amp;#1085;&amp;#1080;&amp;#1084; &#xD;
-    &amp;#1086;&amp;#1090;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1086;&amp;#1074;), &amp;#1085;&amp;#1072;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1103;&amp;#1097;&lt;/span&gt;&lt;span style="white-space: normal; word-spacing: 0px; line-height: normal; float: none; text-indent: 0px; letter-spacing: normal; font-variant: normal; text-transform: none; display: inline !important" align="start"&gt;&amp;#1080;&amp;#1093;&amp;#1089;&amp;#1103; &#xD;
-    &amp;#1074; &amp;#1090;&amp;#1077;&amp;#1093;&amp;#1085;&amp;#1086;&amp;#1083;&amp;#1086;&amp;#1075;&amp;#1080;&amp;#1095;&amp;#1077;&amp;#1089;&amp;#1082;&amp;#1086;&amp;#1084; &amp;#1094;&amp;#1080;&amp;#1082;&amp;#1083;&amp;#1077; &amp;#1086;&amp;#1073;&amp;#1098;&amp;#1077;&amp;#1082;&amp;#1090;&amp;#1086;&amp;#1074; &amp;#1080;&amp;#1085;&amp;#1078;&amp;#1077;&amp;#1085;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1086;&amp;#1081; &amp;#1080;&amp;#1085;&amp;#1092;&amp;#1088;&amp;#1072;&amp;#1089;&amp;#1090;&amp;#1088;&amp;#1091;&amp;#1082;&amp;#1090;&amp;#1091;&amp;#1088;&amp;#1099; &amp;#1075;&amp;#1086;&amp;#1088;&amp;#1086;&amp;#1076;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1093; &amp;#1080; &#xD;
-    &amp;#1089;&amp;#1077;&amp;#1083;&amp;#1100;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1093; &amp;#1087;&amp;#1086;&amp;#1089;&amp;#1077;&amp;#1083;&amp;#1077;&amp;#1085;&amp;#1080;&amp;#1081;&amp;#187;&lt;/span&gt;&lt;span id="ctrlcopy" style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; margin-top: 5px; text-transform: none; margin-bottom: 0px" align="start"&gt;&lt;br style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; text-transform: none; margin-top: 5px; margin-bottom: 0px" align="start"&gt;&amp;#1048;&amp;#1089;&amp;#1090;&amp;#1086;&amp;#1095;&amp;#1085;&amp;#1080;&amp;#1082;:&lt;/span&gt;&lt;/font&gt;&lt;span style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; margin-top: 5px; text-transform: none; margin-bottom: 0px" id="ctrlcopy" align="start"&gt;&lt;font size="medium" face="Times New Roman" color="rgb(0, 128, 0)"&gt;&lt;a href="http://www.gosthelp.ru/text/Klassifikacionnyjkatalogo.html"&gt;&lt;u&gt;http://www.gosthelp.ru/text/Klassifikacionnyjkatalogo.html&lt;/u&gt;&lt;/a&gt;&lt;/font&gt;&lt;/span&gt;&lt;br class="Apple-interchange-newline"&gt;</rdfs:comment>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_химической_промышленности">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Чёрная_металлургия">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Машиностроение">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_строительных_смесей">
@@ -151,30 +128,26 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Химическая">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Компоненты_смесей_и_изделий">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_потребления"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Поликарбонат">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_полимеров"/>
     </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Waste"/>
   <owl:Class rdf:about="http://VolgoWaste.owl#Автопокрышки_легковые">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Автопокрышки"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_пищевой_промышленности">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Химические_отходы">
+  <owl:Class rdf:about="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Переработка"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Consumption_residue"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_пищевые_в_упаковке_из_полимерных_материалов">
@@ -183,7 +156,9 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_комбикормовой_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#ПЭТФ_коричневый">
     <rdfs:subClassOf>
@@ -191,7 +166,9 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_биологические">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Лом_изделий_из_древесины">
     <rdfs:subClassOf>
@@ -215,7 +192,7 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Прочие_изделия,_утратившие_свои_потребительские_свойства">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#ПЭТФ_чистый">
@@ -229,11 +206,18 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отсев">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Прочие_резиновые_изделия">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_резины_(кроме_автопокрышек)"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Managing_of_waste">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Solution"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_упаковочные_мелкогабаритные">
@@ -242,16 +226,18 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_комбикормовой_промышленности">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Класс_опасности"/>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Полигон"/>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Disposal_of_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Solution"/>
+  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_стекла_зелёного">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_стекла"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Collection_of_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Solution"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_медицинские_прочие">
     <rdfs:subClassOf>
@@ -259,14 +245,18 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_медицинские">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_лёгкой_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Лёгкая">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Алюминиевые_банки">
@@ -275,7 +265,9 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_резины_(кроме_автопокрышек)">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_убоя_и_падший_скот">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_биологические"/>
@@ -286,7 +278,9 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_элементов_питания_(мелкие)">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_алюминия_коммунальные">
     <rdfs:subClassOf>
@@ -294,11 +288,14 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_стекла">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Industry"/>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие_III_класса_опасности">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие_опасные"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Other_hazardous_waste"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_употребления_алкоголя_и_слабоалкогольной_продукции">
@@ -323,15 +320,33 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Изделия_из_древесины_крупногабаритные">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_цветных_металлов_и_их_сплавов">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Текстиль_из_синтетических_волокон">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_текстиля"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Consumption_residue">
+    <rdfs:comment xml:lang="ru">&lt;p style="margin-top: 0"&gt;&#xD;
+      &amp;#1057;&amp;#1086;&amp;#1075;&amp;#1083;&amp;#1072;&amp;#1089;&amp;#1085;&amp;#1086; &amp;#1076;&amp;#1086;&amp;#1082;&amp;#1091;&amp;#1084;&amp;#1077;&amp;#1085;&amp;#1090;&amp;#1091; &#xD;
+    &lt;/p&gt;&#xD;
+    &lt;font color="rgb(0, 0, 0)" size="medium" face="Times New Roman"&gt;&lt;span style="white-space: normal; word-spacing: 0px; float: none; line-height: normal; text-indent: 0px; letter-spacing: normal; font-variant: normal; text-transform: none; display: inline !important" align="start"&gt;&amp;#171;&amp;#1050;&amp;#1083;&amp;#1072;&amp;#1089;&amp;#1089;&amp;#1080;&amp;#1092;&amp;#1080;&amp;#1082;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1086;&amp;#1085;&amp;#1085;&amp;#1099;&amp;#1081; &#xD;
+    &amp;#1082;&amp;#1072;&amp;#1090;&amp;#1072;&amp;#1083;&amp;#1086;&amp;#1075; &amp;#1086;&amp;#1090;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1086;&amp;#1074; &amp;#1087;&amp;#1086;&amp;#1090;&amp;#1088;&amp;#1077;&amp;#1073;&amp;#1083;&amp;#1077;&amp;#1085;&amp;#1080;&amp;#1103; (&amp;#1090;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1076;&amp;#1099;&amp;#1093; &amp;#1073;&amp;#1099;&amp;#1090;&amp;#1086;&amp;#1074;&amp;#1099;&amp;#1093; &amp;#1080; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1085;&amp;#1077;&amp;#1085;&amp;#1085;&amp;#1099;&amp;#1093; &amp;#1082; &amp;#1085;&amp;#1080;&amp;#1084; &#xD;
+    &amp;#1086;&amp;#1090;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1086;&amp;#1074;), &amp;#1085;&amp;#1072;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1103;&amp;#1097;&lt;/span&gt;&lt;span style="white-space: normal; word-spacing: 0px; line-height: normal; float: none; text-indent: 0px; letter-spacing: normal; font-variant: normal; text-transform: none; display: inline !important" align="start"&gt;&amp;#1080;&amp;#1093;&amp;#1089;&amp;#1103; &#xD;
+    &amp;#1074; &amp;#1090;&amp;#1077;&amp;#1093;&amp;#1085;&amp;#1086;&amp;#1083;&amp;#1086;&amp;#1075;&amp;#1080;&amp;#1095;&amp;#1077;&amp;#1089;&amp;#1082;&amp;#1086;&amp;#1084; &amp;#1094;&amp;#1080;&amp;#1082;&amp;#1083;&amp;#1077; &amp;#1086;&amp;#1073;&amp;#1098;&amp;#1077;&amp;#1082;&amp;#1090;&amp;#1086;&amp;#1074; &amp;#1080;&amp;#1085;&amp;#1078;&amp;#1077;&amp;#1085;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1086;&amp;#1081; &amp;#1080;&amp;#1085;&amp;#1092;&amp;#1088;&amp;#1072;&amp;#1089;&amp;#1090;&amp;#1088;&amp;#1091;&amp;#1082;&amp;#1090;&amp;#1091;&amp;#1088;&amp;#1099; &amp;#1075;&amp;#1086;&amp;#1088;&amp;#1086;&amp;#1076;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1093; &amp;#1080; &#xD;
+    &amp;#1089;&amp;#1077;&amp;#1083;&amp;#1100;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1093; &amp;#1087;&amp;#1086;&amp;#1089;&amp;#1077;&amp;#1083;&amp;#1077;&amp;#1085;&amp;#1080;&amp;#1081;&amp;#187;&lt;/span&gt;&lt;span id="ctrlcopy" style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; margin-top: 5px; text-transform: none; margin-bottom: 0px" align="start"&gt;&lt;br style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; text-transform: none; margin-top: 5px; margin-bottom: 0px" align="start"&gt;&amp;#1048;&amp;#1089;&amp;#1090;&amp;#1086;&amp;#1095;&amp;#1085;&amp;#1080;&amp;#1082;:&lt;/span&gt;&lt;/font&gt;&lt;span style="margin-left: -1px; white-space: normal; margin-right: 0px; word-spacing: 0px; width: 1px; line-height: 0; text-indent: 0px; height: 1px; letter-spacing: normal; font-variant: normal; margin-top: 5px; text-transform: none; margin-bottom: 0px" id="ctrlcopy" align="start"&gt;&lt;font size="medium" face="Times New Roman" color="rgb(0, 128, 0)"&gt;&lt;a href="http://www.gosthelp.ru/text/Klassifikacionnyjkatalogo.html"&gt;&lt;u&gt;http://www.gosthelp.ru/text/Klassifikacionnyjkatalogo.html&lt;/u&gt;&lt;/a&gt;&lt;/font&gt;&lt;/span&gt;&lt;br class="Apple-interchange-newline"&gt;</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Process_technology_manufacturing_industries">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Technical_process"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_чугуна">
@@ -339,18 +354,27 @@
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_чёрных_металлов_и_их_сплавов_(металлолом)"/>
     </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Processing"/>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Other_hazardous_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Consumption_residue"/>
+  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_металлообрабатывающей_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_административных_зданий,_контор_и_бытовых_помещений_предприятия">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_бумаги_(макулатура)">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Processing_of_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Solution"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Транспортные_средства_и_крупногабаритные_детали_от_них">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_лиственно-травяные">
@@ -361,52 +385,49 @@
   <owl:Class rdf:about="http://VolgoWaste.owl#Резинотканевые_отходы">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_резины_(кроме_автопокрышек)"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие_опасные">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_потребления"/>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#ПЭВД">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_полимеров"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_предприятий_бытового_обслуживания">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_предприятий_общественного_питания">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Пластиковые_отходы">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Переработка"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_пищевые">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Санкционированная_свалка">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Свалка"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Components_of_mixtures_and_articles">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Consumption_residue"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Автопокрышки">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_электротехнической_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_промышленности_строительных_материалов">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Изделия_из_древесины_крупногабаритные_мебельные">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Изделия_из_древесины_крупногабаритные"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_машиностроения">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Капрон">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_полимеров"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Plastic_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Processing"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_стекла_бесцветного">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_стекла"/>
@@ -415,7 +436,7 @@
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_пищевые"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_мусорообразующие">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#ПЭТФ_зелёный">
     <rdfs:subClassOf>
@@ -436,51 +457,50 @@
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_пищевые_без_заводской_упаковки">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_пищевые"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Бумажные_отходы">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Переработка"/>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Смеси_твёрдых_отходов_потребления_прочих_объектов_и_предприятий">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Consumption_residue"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_жевательной_резины">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_мусорообразующие"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_чёрной_металлургии">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_стекла_цветного_смешанного">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_стекла"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_цветной_металлургии">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Строительные_материалы">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Никель-кадмиевые_аккумуляторы">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_элементов_питания_(мелкие)"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отход_производства">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход"/>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Станки,_оборудование_и_их_крупногабаритные_узлы">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Unauthorized_dump">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Disposal_tip"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_производства"/>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Chemical_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Processing"/>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Hazard_class"/>
   <owl:Class rdf:about="http://VolgoWaste.owl#Пищевая">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_минеральные_прочие">
@@ -489,28 +509,35 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_машиностроения">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Target">
+    <rdfs:comment xml:lang="ru">&lt;p style="margin-top: 0"&gt;
+      &amp;#1055;&amp;#1086;&amp;#1083;&amp;#1080;&amp;#1075;&amp;#1086;&amp;#1085; &amp;#1089; &amp;#1086;&amp;#1090;&amp;#1093;&amp;#1086;&amp;#1076;&amp;#1072;&amp;#1084;&amp;#1080;
+    &lt;/p&gt;</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Алкалиновые_элементы">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_элементов_питания_(мелкие)"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Остатки_железобетонных_конструкций">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Production_wastes">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_керамические">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_минеральные"/>
     </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Case"/>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_древесные">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_древесины_и_садово-паркового_хозяйства"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие_I_класса_опасности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_прочие_опасные"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Other_hazardous_waste"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Резинометаллические_отходы">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_резины_(кроме_автопокрышек)"/>
@@ -526,32 +553,32 @@
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Электротехническая">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Инструменты_медицинские">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_медицинские"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие_II_класса_опасности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_прочие_опасные"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Other_hazardous_waste"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_чёрных_металлов_и_их_сплавов_(металлолом)">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_текстиля">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_промышленности_строительных_материалов">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_щелочные">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_(крупные)"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_деревообрабатывающей_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_чёрной_металлургии">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_кислотные">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_(крупные)"/>
@@ -560,55 +587,53 @@
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Элементы_электропитания_и_аккумуляторы_(крупные)"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_минеральные">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_транспортных_пассажирских_узлов">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_транспортной_сферы"/>
     </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Transport_of_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Solution"/>
+  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Перевязочные_материалы">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_медицинские"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_радио-_и_электротехнических_изделий">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Техпроцесс_пищевой_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Техпроцесс_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_изделий_из_кожи">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Лом_асфальтовый">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Изделия_из_древесины_крупногабаритные_строительные">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Изделия_из_древесины_крупногабаритные"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_потребления"/>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Изделия_бытовой_техники_крупногабаритные">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_цветной_металлургии">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_садово-дачных_участков">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_жилищного_фонда"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Обрабатывающая_промышленность">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Промышленность"/>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Paper_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Processing"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_меди_и_её_сплавов">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_цветных_металлов_и_их_сплавов"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_древесины_и_садово-паркового_хозяйства">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Полимеры_неопределённого_состава_и_смешанные">
     <rdfs:subClassOf>
@@ -616,13 +641,12 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Цветная_металлургия">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_медицинских_учреждений">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Свалка"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Литиевые_аккумуляторы">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -633,7 +657,7 @@
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_элементов_питания_(мелкие)"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_полимеров">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Компоненты_смесей_и_изделий"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Components_of_mixtures_and_articles"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_станций_ТО_и_автопредприятий">
     <rdfs:subClassOf>
@@ -644,159 +668,123 @@
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_чёрных_металлов_и_их_сплавов_(металлолом)"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Упаковка_крупногабаритная_смешанного_состава">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Authorized_dump">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Disposal_tip"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Кабели_изолированные_(длиной_более_0.5м)">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного,_комбинированного_состава_в_виде_изделий,_утративших_свои_потребительские_свойства"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_изделий_утративших_свои_потребительские_свойства"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_лёгкой_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_предприятий_оптово-розничной_торговли_промышленными_товарами">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_пищевые_в_упаковке_из_материалов_с_бумажной_основой">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_пищевые"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отход_металлообрабатывающей_промышленности">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отход_обрабатывающей_промышленности"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_processing_industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Полипропилен">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_полимеров"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Manufacturing_Industry">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_прочие">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_цветных_металлов_и_их_сплавов"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_уборки_территорий">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_дошкольных_и_учебных_учреждений,_учреждений_культуры_и_отдыха">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Металлообработка">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Обрабатывающая_промышленность"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Manufacturing_Industry"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_транспортной_сферы">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#ПВХ">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_полимеров"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_жилищного_фонда">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_сложного_комбинированного_состава_в_виде_смесей"/>
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Waste_complex_combined_as_mixtures"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Отходы_пищевые_в_стеклянной_упаковке">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Отходы_пищевые"/>
   </owl:Class>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#переработка">
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Переработка"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Processing"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#перерабатываемое_вещество">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Химические_отходы"/>
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Отход"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Chemical_waste"/>
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Waste"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#имеет_техпроцессы">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Промышленность"/>
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Техпроцесс"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Industry"/>
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Technical_process"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#имеет_класс_опасности">
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Hazard_class"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#имеет_химический_состав">
     <rdfs:range rdf:resource="http://chem.owl#Молекулы"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#имеет_отходы">
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Отход_производства"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Техпроцесс"/>
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Production_wastes"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Technical_process"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://VolgoWaste.owl#отходы_на_свалке">
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Отход"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Свалка"/>
+    <rdfs:range rdf:resource="http://VolgoWaste.owl#Waste"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Disposal_tip"/>
   </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Время_разложения">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#имеет_значение_удельных_показателей_ед.изм">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Техпроцесс"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Имеет значение удельных показателей (единица измерения)</this:label>
-    <rdfs:range>
-      <owl:DataRange>
-        <owl:oneOf rdf:parseType="Resource">
-          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-          >% отходов</rdf:first>
-          <rdf:rest rdf:parseType="Resource">
-            <rdf:rest rdf:parseType="Resource">
-              <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                >т. отх./куб.м. продукции</rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-              </rdf:rest>
-              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-              >т. отх./т. продукции</rdf:first>
-            </rdf:rest>
-            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >кг. отх./т. продукции</rdf:first>
-          </rdf:rest>
-        </owl:oneOf>
-      </owl:DataRange>
-    </rdfs:range>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#имеет_название">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Описание">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#имеет_значение_удельных_показателей_значение">
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Имеет значение удельных показателей значение</this:label>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Техпроцесс"/>
-  </owl:DatatypeProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Район_города">
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Район_города">
     <rdfs:range>
       <owl:DataRange>
         <owl:oneOf rdf:parseType="Resource">
           <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
           >Ворошиловский</rdf:first>
           <rdf:rest rdf:parseType="Resource">
-            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >Дзержинский</rdf:first>
             <rdf:rest rdf:parseType="Resource">
-              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-              >Кировский</rdf:first>
               <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                >Красноармейский</rdf:first>
                 <rdf:rest rdf:parseType="Resource">
                   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
                   >Краснооктябрьский</rdf:first>
                   <rdf:rest rdf:parseType="Resource">
+                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Советский</rdf:first>
                     <rdf:rest rdf:parseType="Resource">
+                      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                      >Тракторозаводский</rdf:first>
                       <rdf:rest rdf:parseType="Resource">
                         <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
                         >Центральный</rdf:first>
                         <rdf:rest rdf:parseType="Resource">
-                          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                           <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
                           >За городом</rdf:first>
+                          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                         </rdf:rest>
                       </rdf:rest>
-                      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                      >Тракторозаводский</rdf:first>
                     </rdf:rest>
-                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                    >Советский</rdf:first>
                   </rdf:rest>
                 </rdf:rest>
+                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Красноармейский</rdf:first>
               </rdf:rest>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+              >Кировский</rdf:first>
             </rdf:rest>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Дзержинский</rdf:first>
           </rdf:rest>
         </owl:oneOf>
       </owl:DataRange>
@@ -804,49 +792,51 @@
     <rdfs:domain>
       <owl:Class>
         <owl:unionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://VolgoWaste.owl#Свалка"/>
-          <owl:Class rdf:about="http://VolgoWaste.owl#Промышленность"/>
+          <owl:Class rdf:about="http://VolgoWaste.owl#Disposal_tip"/>
+          <owl:Class rdf:about="http://VolgoWaste.owl#Industry"/>
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Адрес">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Адрес">
     <rdfs:range>
       <rdfs:Datatype>
+        <xsp:base rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <xsp:maxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >2000</xsp:maxLength>
-        <xsp:base rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
       </rdfs:Datatype>
     </rdfs:range>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Свалка"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#агрегатное_состояние">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Disposal_tip"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#агрегатное_состояние">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
     <rdfs:range>
       <owl:DataRange>
         <owl:oneOf rdf:parseType="Resource">
-          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-          >Твёрдое</rdf:first>
           <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Жидкое</rdf:first>
             <rdf:rest rdf:parseType="Resource">
               <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
               >Газообразное</rdf:first>
               <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:rest>
-            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >Жидкое</rdf:first>
           </rdf:rest>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >Твёрдое</rdf:first>
         </owl:oneOf>
       </owl:DataRange>
     </rdfs:range>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#имеет_среднюю_смертельную_концентрацию_в_воздухе">
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#имеет_среднюю_смертельную_концентрацию_в_воздухе">
     <rdfs:range>
       <owl:DataRange>
         <owl:oneOf rdf:parseType="Resource">
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >менее 500</rdf:first>
           <rdf:rest rdf:parseType="Resource">
             <rdf:rest rdf:parseType="Resource">
               <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -860,69 +850,120 @@
             <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
             >500-5000</rdf:first>
           </rdf:rest>
-          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-          >менее 500</rdf:first>
         </owl:oneOf>
       </owl:DataRange>
     </rdfs:range>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Средняя смертельная концентрация в воздухе, мг/м³</this:label>
     <rdfs:comment xml:lang="ru">&lt;p style="margin-top: 0"&gt;&#xD;
       &amp;#1057;&amp;#1088;&amp;#1077;&amp;#1076;&amp;#1085;&amp;#1103;&amp;#1103; &amp;#1089;&amp;#1084;&amp;#1077;&amp;#1088;&amp;#1090;&amp;#1077;&amp;#1083;&amp;#1100;&amp;#1085;&amp;#1072;&amp;#1103; &amp;#1082;&amp;#1086;&amp;#1085;&amp;#1094;&amp;#1077;&amp;#1085;&amp;#1090;&amp;#1088;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103; &amp;#1074; &amp;#1074;&amp;#1086;&amp;#1079;&amp;#1076;&amp;#1091;&amp;#1093;&amp;#1077;, &amp;#1084;&amp;#1075;/&amp;#1084;&amp;#179;&#xD;
     &lt;/p&gt;</rdfs:comment>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Класс_опасности"/>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Объём_переработки_в_месяц">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Hazard_class"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Объём_переработки_в_месяц">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Переработка"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Processing"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Объём переработки в месяц м^3</rdfs:label>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Дата_обнаружения">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Несанкционированная_свалка"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Дата_обнаружения">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Unauthorized_dump"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#концентрация">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#концентрация">
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-  </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Описание_очевидцев">
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Несанкционированная_свалка"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#Описание_очевидцев">
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Unauthorized_dump"/>
     <rdfs:range>
       <rdfs:Datatype>
-        <xsp:base rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <xsp:maxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >2000</xsp:maxLength>
+        <xsp:base rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
       </rdfs:Datatype>
     </rdfs:range>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://VolgoWaste.owl#имеет_значение_удельных_показателей_значение">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Имеет значение удельных показателей значение</this:label>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Technical_process"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Время_разложения">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
   </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#имеет_класс_опасности">
-    <rdfs:range rdf:resource="http://VolgoWaste.owl#Класс_опасности"/>
-    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Отход"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#имеет_значение_удельных_показателей_ед.изм">
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Technical_process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Имеет значение удельных показателей (единица измерения)</this:label>
+    <rdfs:range>
+      <owl:DataRange>
+        <owl:oneOf rdf:parseType="Resource">
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >% отходов</rdf:first>
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:rest rdf:parseType="Resource">
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+              >т. отх./т. продукции</rdf:first>
+              <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >т. отх./куб.м. продукции</rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:rest>
+            </rdf:rest>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >кг. отх./т. продукции</rdf:first>
+          </rdf:rest>
+        </owl:oneOf>
+      </owl:DataRange>
+    </rdfs:range>
   </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#имеет_название">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://VolgoWaste.owl#Описание">
+    <rdfs:domain rdf:resource="http://VolgoWaste.owl#Waste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >Нет</rdf:first>
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Да</rdf:first>
+      </rdf:rest>
+    </owl:oneOf>
+  </owl:DataRange>
   <this:Полипропилен rdf:about="http://VolgoWaste.owl#Плетёные_мешки_и_сумки">
     <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Твёрдое</this:агрегатное_состояние>
     <this:имеет_класс_опасности>
-      <this:Класс_опасности rdf:about="http://VolgoWaste.owl#IV_класс">
+      <this:Hazard_class rdf:about="http://VolgoWaste.owl#IV_класс">
         <this:имеет_среднюю_смертельную_концентрацию_в_воздухе
          rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
         >более 50000</this:имеет_среднюю_смертельную_концентрацию_в_воздухе>
         <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
         >IV класс опасности</this:label>
-      </this:Класс_опасности>
+      </this:Hazard_class>
     </this:имеет_класс_опасности>
     <this:переработка>
-      <this:Пластиковые_отходы rdf:about="http://VolgoWaste.owl#ЮФО_Переработка">
+      <this:Plastic_waste rdf:about="http://VolgoWaste.owl#ЮФО_Переработка">
         <this:Объём_переработки_в_месяц rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
         >10000.0</this:Объём_переработки_в_месяц>
-      </this:Пластиковые_отходы>
+      </this:Plastic_waste>
     </this:переработка>
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >100.0</this:Время_разложения>
@@ -939,6 +980,34 @@
   </this:Полипропилен>
   <this:Химическая rdf:about="http://VolgoWaste.owl#Волгоградский_кислородный_завод">
     <this:имеет_техпроцессы>
+      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_14">
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">0.1</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#string">т. отх./куб.м. продукции</this:имеет_значение_удельных_показателей_ед.изм>
+        <this:имеет_отходы>
+          <this:Отход_химической_промышленности rdf:about="http://VolgoWaste.owl#Отход_химической_промышленности_15">
+            <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Жидкое</this:агрегатное_состояние>
+            <this:имеет_класс_опасности>
+              <this:Hazard_class rdf:about="http://VolgoWaste.owl#II_класс">
+                <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >II класс опасности</this:label>
+                <this:имеет_среднюю_смертельную_концентрацию_в_воздухе
+                 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >500-5000</this:имеет_среднюю_смертельную_концентрацию_в_воздухе>
+              </this:Hazard_class>
+            </this:имеет_класс_опасности>
+            <this:имеет_химический_состав rdf:resource="http://chem.owl#Серная_кислота"/>
+            <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Кислота серная отработанная</this:label>
+          </this:Отход_химической_промышленности>
+        </this:имеет_отходы>
+        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Производство ацетилена</this:label>
+      </this:Техпроцесс_химической_промышленности>
+    </this:имеет_техпроцессы>
+    <this:имеет_техпроцессы>
       <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_12">
         <this:имеет_отходы>
           <this:Отход_химической_промышленности rdf:about="http://VolgoWaste.owl#Отход_химической_промышленности_13">
@@ -946,15 +1015,7 @@
             >Щелочь отработанная раствор</this:label>
             <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
             >Жидкое</this:агрегатное_состояние>
-            <this:имеет_класс_опасности>
-              <this:Класс_опасности rdf:about="http://VolgoWaste.owl#II_класс">
-                <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                >II класс опасности</this:label>
-                <this:имеет_среднюю_смертельную_концентрацию_в_воздухе
-                 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                >500-5000</this:имеет_среднюю_смертельную_концентрацию_в_воздухе>
-              </this:Класс_опасности>
-            </this:имеет_класс_опасности>
+            <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#II_класс"/>
             <this:имеет_химический_состав rdf:resource="http://chem.owl#Гидроксид_натрия"/>
           </this:Отход_химической_промышленности>
         </this:имеет_отходы>
@@ -966,26 +1027,6 @@
         "http://www.w3.org/2001/XMLSchema#string">т. отх./куб.м. продукции</this:имеет_значение_удельных_показателей_ед.изм>
       </this:Техпроцесс_химической_промышленности>
     </this:имеет_техпроцессы>
-    <this:имеет_техпроцессы>
-      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_14">
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">0.1</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#string">т. отх./куб.м. продукции</this:имеет_значение_удельных_показателей_ед.изм>
-        <this:имеет_отходы>
-          <this:Отход_химической_промышленности rdf:about="http://VolgoWaste.owl#Отход_химической_промышленности_15">
-            <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >Жидкое</this:агрегатное_состояние>
-            <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#II_класс"/>
-            <this:имеет_химический_состав rdf:resource="http://chem.owl#Серная_кислота"/>
-            <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >Кислота серная отработанная</this:label>
-          </this:Отход_химической_промышленности>
-        </this:имеет_отходы>
-        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >Производство ацетилена</this:label>
-      </this:Техпроцесс_химической_промышленности>
-    </this:имеет_техпроцессы>
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Краснооктябрьский</this:Район_города>
   </this:Химическая>
@@ -995,7 +1036,7 @@
   </this:Химическая>
   <this:Отходы_бумаги_прочие rdf:about="http://VolgoWaste.owl#Листовки">
     <this:переработка>
-      <this:Бумажные_отходы rdf:about="http://VolgoWaste.owl#Фонд_Зелёный_лист"/>
+      <this:Paper_waste rdf:about="http://VolgoWaste.owl#Фонд_Зелёный_лист"/>
     </this:переработка>
     <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Твёрдое</this:агрегатное_состояние>
@@ -1012,7 +1053,7 @@
     >Твёрдое</this:агрегатное_состояние>
   </this:Отходы_бумаги_прочие>
   <owl:AnnotationProperty rdf:about="http://VolgoWaste.owl#label"/>
-  <this:Несанкционированная_свалка rdf:about="http://VolgoWaste.owl#Тестовая_свалка">
+  <this:Unauthorized_dump rdf:about="http://VolgoWaste.owl#Тестовая_свалка">
     <this:отходы_на_свалке>
       <this:Отход_химической_промышленности rdf:about="http://VolgoWaste.owl#Отходы_химической_промышленности_2">
         <this:концентрация rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
@@ -1088,19 +1129,8 @@
     >2013-06-05</this:Дата_обнаружения>
     <this:отходы_на_свалке rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_15"/>
     <this:отходы_на_свалке rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_13"/>
-  </this:Несанкционированная_свалка>
+  </this:Unauthorized_dump>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгограднефтемаш"/>
-  <owl:DataRange>
-    <owl:oneOf rdf:parseType="Resource">
-      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >Нет</rdf:first>
-      <rdf:rest rdf:parseType="Resource">
-        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >Да</rdf:first>
-        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-      </rdf:rest>
-    </owl:oneOf>
-  </owl:DataRange>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгоградский_судостроительный_завод"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Волгоградский_завод_безалкогольных_напитков"/>
   <this:ПВХ rdf:about="http://VolgoWaste.owl#Линолеум">
@@ -1115,29 +1145,6 @@
   <this:Металлообработка rdf:about="http://VolgoWaste.owl#Волгоградский_завод_труб_малого_диаметра"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Родос"/>
   <owl:AnnotationProperty rdf:about="http://VolgoWaste.owl#url"/>
-  <owl:DataRange>
-    <owl:oneOf rdf:parseType="Resource">
-      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >1й — чрезвычайно опасные</rdf:first>
-      <rdf:rest rdf:parseType="Resource">
-        <rdf:rest rdf:parseType="Resource">
-          <rdf:rest rdf:parseType="Resource">
-            <rdf:rest rdf:parseType="Resource">
-              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-              >5й — практически неопасные</rdf:first>
-              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:rest>
-            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >4й — малоопасные</rdf:first>
-          </rdf:rest>
-          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-          >3й — умеренно опасные</rdf:first>
-        </rdf:rest>
-        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >2й — высоко опасные</rdf:first>
-      </rdf:rest>
-    </owl:oneOf>
-  </owl:DataRange>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Биодэн"/>
   <this:Комбикормовая rdf:about="http://VolgoWaste.owl#Волгоградский_комбикормовой_завод"/>
   <this:Строительные_материалы rdf:about="http://VolgoWaste.owl#Завод_армосиликатных_изделий"/>
@@ -1156,12 +1163,12 @@
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Красноармейский</this:Район_города>
   </this:Химическая>
-  <this:Химические_отходы rdf:about="http://VolgoWaste.owl#Тестовое_предприятие">
+  <this:Chemical_waste rdf:about="http://VolgoWaste.owl#Тестовое_предприятие">
     <this:перерабатываемое_вещество rdf:resource="http://VolgoWaste.owl#Отход1"/>
     <this:Объём_переработки_в_месяц rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >100.0</this:Объём_переработки_в_месяц>
-  </this:Химические_отходы>
-  <this:Несанкционированная_свалка rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_2">
+  </this:Chemical_waste>
+  <this:Unauthorized_dump rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_2">
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Центральный</this:Район_города>
     <this:Дата_обнаружения rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
@@ -1170,7 +1177,7 @@
     >ул. Новороссийская, д. 5</this:Адрес>
     <this:Описание_очевидцев rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >http://krasimir.org/doc?nid=8841</this:Описание_очевидцев>
-  </this:Несанкционированная_свалка>
+  </this:Unauthorized_dump>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгоградский_завод_транспортного_машиностроения"/>
   <this:Строительные_материалы rdf:about="http://VolgoWaste.owl#Волгоградский_завод_профилированного_металла"/>
   <this:Строительные_материалы rdf:about="http://VolgoWaste.owl#Завод_силикатного_кирпича"/>
@@ -1182,7 +1189,7 @@
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >1.0</this:Время_разложения>
   </this:Отходы_бумаги_газетной>
-  <this:Несанкционированная_свалка rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_1">
+  <this:Unauthorized_dump rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_1">
     <this:Адрес rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >ул. Николая Отрады</this:Адрес>
     <this:Описание_очевидцев rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1191,7 +1198,7 @@
     >Тракторозаводский</this:Район_города>
     <this:Дата_обнаружения rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
     >2013-06-09</this:Дата_обнаружения>
-  </this:Несанкционированная_свалка>
+  </this:Unauthorized_dump>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгоградский_завод_буровой_техники"/>
   <this:Чёрная_металлургия rdf:about="http://VolgoWaste.owl#Красный_октябрь"/>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгоградский_ремонтно-подшипниковый_завод"/>
@@ -1199,7 +1206,7 @@
   <this:Строительные_материалы rdf:about="http://VolgoWaste.owl#Полимер"/>
   <owl:AnnotationProperty rdf:about="http://VolgoWaste.owl#termId"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Кондитерская_фабрика_Славянка"/>
-  <this:Несанкционированная_свалка rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_3">
+  <this:Unauthorized_dump rdf:about="http://VolgoWaste.owl#Несанкционированная_свалка_3">
     <this:Дата_обнаружения rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
     >2013-03-25</this:Дата_обнаружения>
     <this:Адрес rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1208,7 +1215,7 @@
     >http://krasimir.org/doc?nid=8563</this:Описание_очевидцев>
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Советский</this:Район_города>
-  </this:Несанкционированная_свалка>
+  </this:Unauthorized_dump>
   <this:Полимеры_неопределённого_состава_и_смешанные rdf:about="http://VolgoWaste.owl#Скотч">
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
     <this:имеет_химический_состав rdf:resource="http://VolgoWaste.owl#Полимеры25"/>
@@ -1264,17 +1271,17 @@
     >100.0</this:Время_разложения>
     <this:имеет_химический_состав rdf:resource="http://chem#Полимеры_27"/>
   </this:ПВХ>
-  <this:Класс_опасности rdf:about="http://VolgoWaste.owl#I_класс">
+  <this:Hazard_class rdf:about="http://VolgoWaste.owl#I_класс">
     <this:имеет_среднюю_смертельную_концентрацию_в_воздухе rdf:datatype=
     "http://www.w3.org/2001/XMLSchema#string">менее 500</this:имеет_среднюю_смертельную_концентрацию_в_воздухе>
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >I класс опасности</this:label>
-  </this:Класс_опасности>
+  </this:Hazard_class>
   <this:Машиностроение rdf:about="http://VolgoWaste.owl#Мотороремонтный_завод_Волгоградский"/>
-  <this:Класс_опасности rdf:about="http://VolgoWaste.owl#V_класс">
+  <this:Hazard_class rdf:about="http://VolgoWaste.owl#V_класс">
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >V класс опасности</this:label>
-  </this:Класс_опасности>
+  </this:Hazard_class>
   <this:Отходы_бумаги_прочие rdf:about="http://VolgoWaste.owl#Картонная_упаковка">
     <this:агрегатное_состояние rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Твёрдое</this:агрегатное_состояние>
@@ -1292,6 +1299,29 @@
     <this:переработка rdf:resource="http://VolgoWaste.owl#ЮФО_Переработка"/>
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
   </this:Полипропилен>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >2й — высоко опасные</rdf:first>
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:rest rdf:parseType="Resource">
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+              >5й — практически неопасные</rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >4й — малоопасные</rdf:first>
+          </rdf:rest>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >3й — умеренно опасные</rdf:first>
+        </rdf:rest>
+      </rdf:rest>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >1й — чрезвычайно опасные</rdf:first>
+    </owl:oneOf>
+  </owl:DataRange>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Молочный_завод_Волгоградский"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Хлебозавод_4"/>
   <this:Электротехническая rdf:about="http://VolgoWaste.owl#Волгоградский_литейно-механический_завод"/>
@@ -1300,28 +1330,20 @@
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Кировский</this:Район_города>
     <this:имеет_техпроцессы>
-      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_11">
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">4.51</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">1.24</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отходы_химической_промышленности_2"/>
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_4"/>
-        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >Производство хлороформа на основе хлорирования метана</this:label>
+      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_1">
         <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
         "http://www.w3.org/2001/XMLSchema#string">т. отх./т. продукции</this:имеет_значение_удельных_показателей_ед.изм>
-      </this:Техпроцесс_химической_промышленности>
-    </this:имеет_техпроцессы>
-    <this:имеет_техпроцессы>
-      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#ТехХим1">
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход1"/>
-        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >Производство каустической соды (на предприятиях содового производства)</this:label>
         <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">2.0</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#string">т. отх./ т. продукции</this:имеет_значение_удельных_показателей_ед.изм>
+        "http://www.w3.org/2001/XMLSchema#float">0.466</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">1.69</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">0.433</this:имеет_значение_удельных_показателей_значение>
+        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Производство хлорпарафина ХП-470</this:label>
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_5"/>
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_4"/>
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отходы_химической_промышленности_2"/>
       </this:Техпроцесс_химической_промышленности>
     </this:имеет_техпроцессы>
     <this:имеет_техпроцессы>
@@ -1336,30 +1358,38 @@
       </this:Техпроцесс_химической_промышленности>
     </this:имеет_техпроцессы>
     <this:имеет_техпроцессы>
-      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_1">
+      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#ТехХим1">
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход1"/>
+        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Производство каустической соды (на предприятиях содового производства)</this:label>
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">2.0</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#string">т. отх./ т. продукции</this:имеет_значение_удельных_показателей_ед.изм>
+      </this:Техпроцесс_химической_промышленности>
+    </this:имеет_техпроцессы>
+    <this:имеет_техпроцессы>
+      <this:Техпроцесс_химической_промышленности rdf:about="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_11">
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">1.24</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#float">4.51</this:имеет_значение_удельных_показателей_значение>
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_4"/>
+        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отходы_химической_промышленности_2"/>
+        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Производство хлороформа на основе хлорирования метана</this:label>
         <this:имеет_значение_удельных_показателей_ед.изм rdf:datatype=
         "http://www.w3.org/2001/XMLSchema#string">т. отх./т. продукции</this:имеет_значение_удельных_показателей_ед.изм>
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">0.433</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">1.69</this:имеет_значение_удельных_показателей_значение>
-        <this:имеет_значение_удельных_показателей_значение rdf:datatype=
-        "http://www.w3.org/2001/XMLSchema#float">0.466</this:имеет_значение_удельных_показателей_значение>
-        <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >Производство хлорпарафина ХП-470</this:label>
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отходы_химической_промышленности_2"/>
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_4"/>
-        <this:имеет_отходы rdf:resource="http://VolgoWaste.owl#Отход_химической_промышленности_5"/>
       </this:Техпроцесс_химической_промышленности>
     </this:имеет_техпроцессы>
   </this:Химическая>
   <rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#Entity">
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Промышленность"/>
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Класс_опасности"/>
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Отход"/>
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Свалка"/>
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Переработка"/>
-    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Полигон"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Target"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Processing"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Disposal_tip"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Waste"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Hazard_class"/>
+    <owl:disjointWith rdf:resource="http://VolgoWaste.owl#Industry"/>
   </rdf:Description>
   <this:Полистирол rdf:about="http://VolgoWaste.owl#Стаканчик_из-под_йогурта">
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
@@ -1382,12 +1412,12 @@
     >Твёрдое</this:агрегатное_состояние>
   </this:ПВХ>
   <this:Металлообработка rdf:about="http://VolgoWaste.owl#Баррикады"/>
-  <this:Класс_опасности rdf:about="http://VolgoWaste.owl#III_класс">
+  <this:Hazard_class rdf:about="http://VolgoWaste.owl#III_класс">
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >III класс опасности</this:label>
     <this:имеет_среднюю_смертельную_концентрацию_в_воздухе rdf:datatype=
     "http://www.w3.org/2001/XMLSchema#string">5001-50000</this:имеет_среднюю_смертельную_концентрацию_в_воздухе>
-  </this:Класс_опасности>
+  </this:Hazard_class>
   <this:Полимеры_неопределённого_состава_и_смешанные rdf:about="http://VolgoWaste.owl#Канистра">
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
@@ -1405,9 +1435,9 @@
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Мясокомбинат_Красноармейский"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Винодельческий_завод_Волгоградский"/>
   <owl:AnnotationProperty rdf:about="http://bioportal.bioontology.org#ontologyId"/>
-  <this:Металлообработка rdf:about="http://VolgoWaste.owl#Волгоградский_электромеханический_завод">
-    <rdf:type rdf:resource="http://VolgoWaste.owl#Машиностроение"/>
-  </this:Металлообработка>
+  <this:Машиностроение rdf:about="http://VolgoWaste.owl#Волгоградский_электромеханический_завод">
+    <rdf:type rdf:resource="http://VolgoWaste.owl#Металлообработка"/>
+  </this:Машиностроение>
   <owl:AnnotationProperty rdf:about="http://bioportal.bioontology.org#shortTermId"/>
   <this:Строительные_материалы rdf:about="http://VolgoWaste.owl#Завод_керамического_кирпича"/>
   <this:Пищевая rdf:about="http://VolgoWaste.owl#Волгомясомолторг"/>
