@@ -518,13 +518,13 @@
   <owl:Class rdf:about="http://VolgoWaste.owl#PET_clear">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#polymers"/>
   </owl:Class>
-  <owl:Class rdf:about="http://VolgoWaste.owl#Stainless_steel_waste">
-    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Scrap_metal"/>
-  </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Nickel_cadmium_batteries">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://VolgoWaste.owl#Batteries"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://VolgoWaste.owl#Stainless_steel_waste">
+    <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Scrap_metal"/>
   </owl:Class>
   <owl:Class rdf:about="http://VolgoWaste.owl#Technical_process_mechanical_engineering">
     <rdfs:subClassOf rdf:resource="http://VolgoWaste.owl#Process_technology_manufacturing_industries"/>
@@ -913,6 +913,10 @@
     >1.0</this:Время_разложения>
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
   </this:Other_paper>
+  <this:Collection_of_waste rdf:about="http://VolgoWaste.owl#waste_sorting">
+    <this:solution_action rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >waste sorting</this:solution_action>
+  </this:Collection_of_waste>
   <this:Other_paper rdf:about="http://VolgoWaste.owl#Макулатура">
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
@@ -1012,6 +1016,7 @@
     >Твёрдое</this:агрегатное_состояние>
   </this:PVC>
   <this:Metalworking rdf:about="http://VolgoWaste.owl#Волгоградский_завод_труб_малого_диаметра"/>
+  <this:Processing_of_waste rdf:about="http://VolgoWaste.owl#creation_of_building_materials"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Родос"/>
   <owl:AnnotationProperty rdf:about="http://VolgoWaste.owl#url"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Биодэн"/>
@@ -1027,6 +1032,7 @@
   </this:Other_paper>
   <this:Construction_materials rdf:about="http://VolgoWaste.owl#Красноармейский_лесозавод"/>
   <this:Construction_materials rdf:about="http://VolgoWaste.owl#Завод_силикатных_и_изоляционных_материалов"/>
+  <this:Transport_of_waste rdf:about="http://VolgoWaste.owl#transport_liquid_wastes"/>
   <this:Chemical_industry rdf:about="http://VolgoWaste.owl#Тестовое_предпр">
     <this:имеет_техпроцессы rdf:resource="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_14"/>
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1150,6 +1156,7 @@
   </this:PVC>
   <owl:AnnotationProperty rdf:about="http://VolgoWaste.owl#ontologyId"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Конфил"/>
+  <this:Managing_of_waste rdf:about="http://VolgoWaste.owl#suspension_of_activity_of_the_enterprise"/>
   <this:Electrical_industry rdf:about="http://VolgoWaste.owl#Электронмаш"/>
   <this:Mechanical_engineering rdf:about="http://VolgoWaste.owl#Автореммаш"/>
   <this:Mechanical_engineering rdf:about="http://VolgoWaste.owl#Волгоградский_завод_тракторных_деталей_и_нормалей"/>
@@ -1169,6 +1176,7 @@
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >I класс опасности</this:label>
   </this:Hazard_class>
+  <this:Managing_of_waste rdf:about="http://VolgoWaste.owl#prosecution_of_manager"/>
   <this:Mechanical_engineering rdf:about="http://VolgoWaste.owl#Мотороремонтный_завод_Волгоградский"/>
   <this:Hazard_class rdf:about="http://VolgoWaste.owl#V_класс">
     <this:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1193,6 +1201,7 @@
   </this:polypropylene>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Молочный_завод_Волгоградский"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Хлебозавод_4"/>
+  <this:Managing_of_waste rdf:about="http://VolgoWaste.owl#administrative_penalty"/>
   <this:Electrical_industry rdf:about="http://VolgoWaste.owl#Волгоградский_литейно-механический_завод"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Макарна"/>
   <this:Chemical_industry rdf:about="http://VolgoWaste.owl#Химпром">
@@ -1298,6 +1307,7 @@
   </this:other_Polymers>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Хлебозавод_1"/>
   <this:Mechanical_engineering rdf:about="http://VolgoWaste.owl#Завод_по_ремонту_трамваев_и_троллейбусов"/>
+  <this:Transport_of_waste rdf:about="http://VolgoWaste.owl#transport_to_dump"/>
   <this:Electrical_industry rdf:about="http://VolgoWaste.owl#ВолгоградАгроЭлектроМонтажКомплект"/>
   <owl:AnnotationProperty rdf:about="http://bioportal.bioontology.org#ontologyLabel"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Хлебозавод_2"/>
@@ -1333,6 +1343,8 @@
     >200.0</this:Время_разложения>
   </this:other_Polymers>
   <this:Mechanical_engineering rdf:about="http://VolgoWaste.owl#Красноармейский_судоремонтный_завод"/>
+  <this:Disposal_of_waste rdf:about="http://VolgoWaste.owl#incineration"/>
+  <this:Processing_of_waste rdf:about="http://VolgoWaste.owl#use_waste_recycling_factory"/>
   <this:Book rdf:about="http://VolgoWaste.owl#Книги">
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >2.0</this:Время_разложения>
@@ -1347,6 +1359,7 @@
     >Красноармейский</this:Район_города>
     <this:имеет_техпроцессы rdf:resource="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_1"/>
   </this:Chemical_industry>
+  <this:Processing_of_waste rdf:about="http://VolgoWaste.owl#processing_at_the_factory_for_their_own_use"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Хлебозавод_5"/>
   <this:PET_clear rdf:about="http://VolgoWaste.owl#Бутылки_из-под_напитков">
     <this:Время_разложения rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
@@ -1357,15 +1370,19 @@
     <this:имеет_класс_опасности rdf:resource="http://VolgoWaste.owl#IV_класс"/>
   </this:PET_clear>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Бекетовский_хлеб"/>
+  <this:Disposal_of_waste rdf:about="http://VolgoWaste.owl#disposed_at_a_landfill"/>
+  <this:Transport_of_waste rdf:about="http://VolgoWaste.owl#transport_construction_waste"/>
   <this:Chemical_industry rdf:about="http://VolgoWaste.owl#Волгоградский_завод_технического_углерода">
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Красноармейский</this:Район_города>
   </this:Chemical_industry>
+  <this:Disposal_of_waste rdf:about="http://VolgoWaste.owl#thermal_treatment_of_waste"/>
   <this:Chemical_industry rdf:about="http://VolgoWaste.owl#Тестовое_предпр_2">
     <this:имеет_техпроцессы rdf:resource="http://VolgoWaste.owl#Техпроцесс_химической_промышленности_14"/>
     <this:Район_города rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >За городом</this:Район_города>
   </this:Chemical_industry>
+  <this:Collection_of_waste rdf:about="http://VolgoWaste.owl#collect_waste_from_the_factory"/>
   <this:Food_processing_industry rdf:about="http://VolgoWaste.owl#Сарептская_мельница"/>
   <this:Metalworking rdf:about="http://VolgoWaste.owl#Волгоградский_Вторцветмет"/>
   <this:polystyrene rdf:about="http://VolgoWaste.owl#Сандвич_панель">

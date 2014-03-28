@@ -1,4 +1,4 @@
-; Fri Mar 28 19:34:38 VOLT 2014
+; Fri Mar 28 21:19:01 VOLT 2014
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,13 +6,13 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[VolgoWaste_ProjectKB_Class10262]
-		[VolgoWaste_ProjectKB_Class10263]
-		[VolgoWaste_ProjectKB_Class10264]
-		[VolgoWaste_ProjectKB_Class10265]
-		[VolgoWaste_ProjectKB_Class10266]
-		[VolgoWaste_ProjectKB_Class10267]
-		[VolgoWaste_ProjectKB_Class10268]))
+		[VolgoWaste_ProjectKB_Class10488]
+		[VolgoWaste_ProjectKB_Class10489]
+		[VolgoWaste_ProjectKB_Class10490]
+		[VolgoWaste_ProjectKB_Class10491]
+		[VolgoWaste_ProjectKB_Class10492]
+		[VolgoWaste_ProjectKB_Class10493]
+		[VolgoWaste_ProjectKB_Class10494]))
 
 ([CLSES_TAB] of  Widget
 
@@ -5651,37 +5651,37 @@
 ([VolgoWaste_ProjectKB_Class10] of  Property_List
 )
 
-([VolgoWaste_ProjectKB_Class10262] of  String
+([VolgoWaste_ProjectKB_Class10488] of  String
 
 	(name "http://VolgoWaste.owl#Отход_химической_промышленности")
 	(string_value "http%3A%2F%2FVolgoWaste.owl%23label"))
 
-([VolgoWaste_ProjectKB_Class10263] of  String
+([VolgoWaste_ProjectKB_Class10489] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([VolgoWaste_ProjectKB_Class10264] of  String
+([VolgoWaste_ProjectKB_Class10490] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Class")
 	(string_value "%3ANAME"))
 
-([VolgoWaste_ProjectKB_Class10265] of  String
+([VolgoWaste_ProjectKB_Class10491] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([VolgoWaste_ProjectKB_Class10266] of  String
+([VolgoWaste_ProjectKB_Class10492] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
 
-([VolgoWaste_ProjectKB_Class10267] of  String
+([VolgoWaste_ProjectKB_Class10493] of  String
 
 	(name "http://VolgoWaste.owl#Technical_process")
 	(string_value "http%3A%2F%2FVolgoWaste.owl%23label"))
 
-([VolgoWaste_ProjectKB_Class10268] of  String
+([VolgoWaste_ProjectKB_Class10494] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Thing")
 	(string_value "%3ANAME"))
